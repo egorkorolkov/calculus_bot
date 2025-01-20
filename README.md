@@ -23,7 +23,12 @@ MODEL_NAME=
 ```
 
 ## Running a bot
-1. Run the bot:
+1. Build the vector Database 
+```
+python preparing_db.py
+```
+
+2. Run the bot:
 ```
 python bot.py
 ```
