@@ -1,0 +1,14 @@
+__pycache__/
+__MACOSX
+
+
+.ipynb_checkpoints
+*.ipynb
+
+__pypackages__/
+
+.env
+.venv
+venv/
+.vscode/
+\models
