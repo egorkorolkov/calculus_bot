@@ -30,5 +30,9 @@ python preparing_db.py
 
 2. Run the bot:
 ```
-python bot.py
+python bot_ollama.py
 ```
+
+## TODO-list
+- [ ] Add an ability to remember the dialog context
+- [ ] Add the database for all users and save theirs chats

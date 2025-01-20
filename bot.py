@@ -24,7 +24,7 @@ hf_pipeline = pipeline("text-generation", model=model, tokenizer=tokenizer, max_
 
 llm = HuggingFacePipeline(pipeline=hf_pipeline)
 
-prompt_template_1 = """
+prompt_template = """
 Используя следующий контекст, ответь на вопрос. Если ответа в контексте нет, скажи об этом явно.
 
 Контекст:
@@ -35,9 +35,9 @@ prompt_template_1 = """
 
 Ответ:
 """
-prompt_template = """{context}
-{question}
-Ответ:"""
+# prompt_template = """{context}
+# {question}
+# Ответ:"""
 
 prompt = PromptTemplate(input_variables=["context", "question"], template=prompt_template)
 
@@ -62,7 +62,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(f"Ответ: {answer}")
     except Exception as e:
         await update.message.reply_text("Произошла ошибка при обработке запроса. Попробуйте снова.")
-        print(f"Ошибка: {e}")
+        print(f"Error: {e}")
 
 
 def main():
