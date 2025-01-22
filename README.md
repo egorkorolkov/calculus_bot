@@ -1,5 +1,6 @@
 # TG-bot for getting help in Calculus theory
 This is an app for a bot that answers theoretical questions on mathematical analysis.
+ It is available at the https://t.me/calculus_rag_bot
 
 ## Requirements:
 - Python 3.12
