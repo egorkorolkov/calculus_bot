@@ -19,7 +19,7 @@ pip install -r requirements.txt
 3. Create `.env` file with all env variables 
 ```bash
 TG_BOT_TOKEN=
-MODEL_NAME=
+OLLAMA_MODEL=
 ```
 
 ## Running a bot

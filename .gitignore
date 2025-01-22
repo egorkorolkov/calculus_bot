@@ -12,3 +12,5 @@ __pypackages__/
 venv/
 .vscode/
 \models
+
+project_link.txt
