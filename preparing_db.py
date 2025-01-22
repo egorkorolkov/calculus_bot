@@ -26,7 +26,7 @@ def split_text_into_chunks(cleaned_text, chunk_size=2000, chunk_overlap=50):
     return documents
 
 
-PDF_PATH = '/Users/macbook/Desktop/python_dev/RAG-pipeline/data/2014_Redkozubov.pdf'
+PDF_PATH = 'data/2014_Redkozubov.pdf'
 SAVE_PATH = 'models/faiss_index'
 
 
