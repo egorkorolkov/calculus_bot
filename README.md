@@ -35,5 +35,6 @@ python bot_ollama.py
 ```
 
 ## TODO-list
-- [ ] Add an ability to remember the dialog context
-- [ ] Add the database for all users and save theirs chats
+- [x] Add an ability to remember the dialog context
+- [x] Add the database for all users and save theirs chats
+- [ ] Make the interface more user friendly
